@@ -1,0 +1,4 @@
+- VCC for DHT22 can be 3-5V
+- Pullup resistor value can be 10-50K
+- BMP180 is connected to I2C (SDA1, SCL1) on the Raspberry Pi, probably that's the default setting in the library...
+- The I2C interface needs to be enabled on the Raspberry Pi

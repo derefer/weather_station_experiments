@@ -14,9 +14,9 @@ Raspbian packages needed to run the code:
 - python3
 - pip3
 - i2c-tools (for `i2cdetect`)
-- RPi.GPIO (comes as a pip3 package)
-- Adafruit_DHT (comes as a pip3 package)
-- Adafruit_BMP (comes as a pip3 package)
+- RPi.GPIO (comes as a pip3 package: `sudo pip3 install RPi.GPIO`)
+- Adafruit_DHT (comes as a pip3 package: `sudo pip3 install Adafruit_DHT`)
+- Adafruit_BMP (comes as a pip3 package: `sudo pip3 install Adafruit_BMP`)
 
 Other settings (`pi` is used as an example user):
 - The VCC for the DHT22 can be 3.3 V or 5 V
